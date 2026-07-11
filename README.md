@@ -4,6 +4,8 @@ I built this project to practice building a real, end to end data engineering pi
 
 The result is a fully interactive analytics dashboard that updates as new matches are played.
 
+Live dashboard: https://fifa-2026-pipeline-bbqkaatyw3shwtsodbfcgw.streamlit.app/
+
 ## What it does
 
 Raw match, team, and player data gets pulled from Kaggle and ingested into a local DuckDB database as a Bronze layer. Python transformation scripts then reshape and clean the data into a Silver layer. From there, dbt models sit on top and produce Gold layer outputs that answer real questions about the tournament — who is winning the Golden Boot, which teams are the most clinical in front of goal, which matches featured comebacks, and who is the best player of the tournament based on performance metrics.
