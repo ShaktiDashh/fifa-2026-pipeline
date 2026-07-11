@@ -1,0 +1,28 @@
+[0m15:29:18.660829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002033C685220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002033B676E40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002033C99C4A0>]}
+
+
+============================== 15:29:18.665526 | 89e46fc9-3c60-451b-a043-fe65fd0a667d ==============================
+[0m15:29:18.665526 [info ] [MainThread]: Running with dbt=1.11.12
+[0m15:29:18.666500 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\shakt\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init fifa_2026', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:29:18.668154 [debug] [MainThread]: Starter project path: C:\Users\shakt\fifa-2026-pipeline\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:29:18.734070 [info ] [MainThread]: 
+Your new dbt project "fifa_2026" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:29:18.734070 [info ] [MainThread]: Setting up your profile.
+[0m15:31:13.685240 [debug] [MainThread]: Command `dbt init` succeeded at 15:31:13.685240 after 115.18 seconds
+[0m15:31:13.685240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002033EA1F4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002033E43C380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002033E43FF50>]}
+[0m15:31:13.697935 [debug] [MainThread]: Flushing usage events
+[0m15:31:14.283948 [debug] [MainThread]: An error was encountered while trying to flush usage events

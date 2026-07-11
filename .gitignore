@@ -1,0 +1,11 @@
+venv/
+*.duckdb
+*.duckdb.wal
+fifa_2026/target/
+fifa_2026/logs/
+fifa_2026/.user.yml
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+Thumbs.db
