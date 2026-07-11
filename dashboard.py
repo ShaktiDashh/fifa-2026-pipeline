@@ -38,7 +38,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-con = duckdb.connect('fifa_2026.duckdb')
+from setup import setup_database
+con = setup_database()
 
 # --- SIDEBAR ---
 st.sidebar.title("Filters")
